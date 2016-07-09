@@ -28,3 +28,5 @@ Before using the tool, one needs to configure `dotd.ini` in order to define:
 Type this command line: `dotd.py [Name of the GraphViz file]`
 
 You can test the script with the example provided in this repository `dotd.py test_cluster.gv` and you will get the example window above.
+
+On some Windows configuration, the python file association doesn't pass the command line arguments to the python interpreter. If you meet this issue, refer to http://stackoverflow.com/questions/2640971/windows-is-not-passing-command-line-arguments-to-python-programs-executed-from-t 
